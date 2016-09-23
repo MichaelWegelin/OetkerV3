@@ -66,8 +66,8 @@
 		<footer>
 			<OverflowToolbar id="footerToolbar">
 				<ToolbarSpacer/>
-				<Button text="Edit" Type="Default" press="onEdit"></Button>
-				<Button text="Delete" Type="Reject" press="onDelete"></Button>
+				<Button text="Edit" type="Emphasized" press="onEdit"></Button>
+				<Button text="Delete" type="Reject" press="onDelete"></Button>
 				<Button id="shareButton" tooltip="{i18n>shareTooltip}" icon="sap-icon://action" press="onSharePress">
 					<dependents>
 						<ActionSheet id="shareSheet" showCancelButton="true" placement="Top">
